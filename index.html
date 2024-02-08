@@ -8,10 +8,78 @@
 
     <title>Сайт Портфоліо</title>
 
+    <script src="https://kit.fontawesome.com/e3a49d370f.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond: ital, wght@0,700;1,700&display=swap"  rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+
 </head>
 
 <body>
+    <header>
+        <div class="nav">
+
+            <a>
+                <span>M</span>aksik
+            </a>
+        
+            <ul>
+                <li>Головна</li>
+                <li>Про мене</li>
+                <li>Портфоліо</li>
+                <li>Контакти</li>
+            </ul>
     
+        </div>
+    </header>
+
+    <section>
+
+        <div class="home-text">
+
+            <span> Розробник програмного забезпечення</span>
+
+            <h1> Сайт Як Хобі </h1>
+
+            <p>
+               "There is logic in this, only if -think about.(i'm a genius,yee? )"
+            </p>
+
+            <div>
+                <a> Поставити Запитання </a>
+                <a> Мій Telegram Акаунт Нижче</a>
+            </div>
+
+        </div>
+
+        <div class="home-img">
+            <img src="cat1.png">
+        </div>
+
+    </section>
+
+    <footer>
+        <ul>
+            <li id="instagram-icon"> <i class="fab fa-instagram"></i> </li>
+            <li id="github-icon"> <i class="fab fa-github"></i> </li>
+            <li id="telegram-icon"> <i class="fab fa-telegram"></i> </li>
+        </ul>
+    </footer>
+    <script>
+        document.getElementById("instagram-icon").addEventListener("click", function() {
+            window.location.href = "https://www.instagram.com/maksikuson/";
+        });
+        
+        document.getElementById("github-icon").addEventListener("click", function() {
+            window.location.href = "https://github.com/maksikuson";
+        });
+        
+        document.getElementById("telegram-icon").addEventListener("click", function() {
+            window.location.href = "https://t.me/neveroyatniykotbasketbolist";
+        });
+    </script>
 </body>
 
 </html>
